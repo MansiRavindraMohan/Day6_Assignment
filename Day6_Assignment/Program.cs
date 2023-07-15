@@ -10,8 +10,11 @@ namespace Day6_Assignment
     {
         static void Main(string[] args)
         {
-            LinkedListClass linkedListClass = new LinkedListClass();
-            linkedListClass.MethodLinkedList();
+            //LinkedListClass linkedListClass = new LinkedListClass();
+            //linkedListClass.MethodLinkedList();
+
+            StackClass stackClass = new StackClass();
+            stackClass.MethodStack();
             Console.ReadLine();
         }
     }
