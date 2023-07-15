@@ -13,8 +13,11 @@ namespace Day6_Assignment
             //LinkedListClass linkedListClass = new LinkedListClass();
             //linkedListClass.MethodLinkedList();
 
-            StackClass stackClass = new StackClass();
-            stackClass.MethodStack();
+            //StackClass stackClass = new StackClass();
+            //stackClass.MethodStack();
+
+            QueueClass queueClass = new QueueClass();
+            queueClass.MethodQueue();
             Console.ReadLine();
         }
     }
